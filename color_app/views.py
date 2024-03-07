@@ -14,10 +14,10 @@ from color_app.forms import ColorForm
 def home_view(request):
     "A view function which renders the homepage"
 
-    skyblue = Color(name="skyblue", red=135, green=206, blue=250)
+    skyblue = Color(name="deeznuts", red=113, green=121, blue=132)
 
     params = {
-        "name": "stranger",
+        "name": "doofenschmirtz",
         "color": skyblue,
     }
     
