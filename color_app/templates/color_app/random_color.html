@@ -21,6 +21,10 @@
 			<p>
 			  Do you like it? If not, 
 				<a href="{% url 'color_app:random_color' %}">choose another</a>.
+        <br>
+        <a href="{% url 'color_app:color_list' %}">
+          or the colour list? British english this time :D 
+        </a>
 			</p>
       {% include "color_app/swatch.html" %}
     </div>
